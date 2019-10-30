@@ -1,0 +1,13 @@
+rails new nomad --database=postgresql
+cd no*
+rake db:create
+rails server -b 0.0.0.0 -p 3000
+http://127.0.0.1:3030/
+git init
+git add --all
+git commit -am "Initial commit"
+GitHub.com 
+Click the green "New repository" button.
+Press the Create repository button.
+Click the SSH button 
+Copy and paste both of the lines that you see on the GitHub page: git remote add ... and git push ... 
